@@ -1,0 +1,63 @@
+\documentclass{exam}
+\usepackage{amsmath, amsfonts}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage[super]{nth}
+
+\DeclareMathOperator*{\argmin}{argmin}
+
+\usepackage[hyperfootnotes=false]{hyperref}
+
+\usepackage[usenames,dvipsnames]{color}
+\newcommand{\note}[1]{
+	\noindent~\\
+	\vspace{0.25cm}
+	\fcolorbox{Red}{Orange}{\parbox{0.99\textwidth}{#1\\}}
+	%{\parbox{0.99\textwidth}{#1\\}}
+	\vspace{0.25cm}
+}
+
+
+%\input{../macros}
+%\renewcommand{\hide}[1]{#1}
+
+\qformat{\thequestion. \textbf{\thequestiontitle}\hfill}
+\bonusqformat{\thequestion. \textbf{\thequestiontitle}\hfill}
+
+\pagestyle{headandfoot}
+
+%%%%%% MODIFY FOR EACH SHEET!!!! %%%%%%
+\newcommand{\duedate}{13.01.2021 (15:00)}
+\newcommand{\due}{{\bf This assignment is due on \duedate.} }
+\firstpageheader
+{Due: \duedate}
+{{\bf\lecture}\\ \assignment{1}}
+{\lectors\\ \semester}
+
+\runningheader
+{Due: \duedate}
+{\assignment{1}}
+{\semester}
+%%%%%% MODIFY FOR EACH SHEET!!!! %%%%%%
+
+\firstpagefooter
+{}
+{\thepage}
+{}
+
+\runningfooter
+{}
+{\thepage}
+{}
+
+\headrule
+\pointsinrightmargin
+\bracketedpoints
+\marginpointname{pt.}
+
+
+\begin{document}
+
+\noindent This week will be a free form task without set tests. Think of it as a mini-project. You will work with the Slime Volleyball Environment and try to train an agent to perform as well as possible. Please use the given environment intialization, though you are free to experiment of course. You should not use any RL frameworks or pre-made algorithms, but can re-use any code from previous exercises. Examples of how to extend it include implementing a completely new algorithm, experimenting with different algorithm components like the exploration strategy or tuning hyperparameters. Good luck and have fun!
+
+\end{document}
