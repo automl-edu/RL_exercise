@@ -1,2 +1,2 @@
 # RL exercises
-Exercise sheets for the RL lecture 2020. 
+Exercise sheets for the Reinforcement Learning Lecture
