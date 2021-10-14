@@ -27,7 +27,7 @@
 \pagestyle{headandfoot}
 
 %%%%%% MODIFY FOR EACH SHEET!!!! %%%%%%
-\newcommand{\duedate}{04.11.2020 (15:00)}
+\newcommand{\duedate}{27.10.2021 (15:00)}
 \newcommand{\due}{{\bf This assignment is due on \duedate.} }
 \firstpageheader
 {Due: \duedate}
@@ -75,15 +75,6 @@ The exercises in this course will teach you how to implement important RL algori
     
 	
     \titledquestion{Get familiar with git and GitHub Classroom} 
-    First, you need to create a working branch (e.g. dev) that you will be working on. Only commit to main when you want to submit you exercises!
-    To create a new branch in a command line setting, run:
-    \begin{verbatim}
-	git checkout -b dev
-	\end{verbatim}
-	If the branch already exists, you can change to it using:
-	\begin{verbatim}
-	git checkout dev
-	\end{verbatim}
 	To show that you are familiar with the standard git \emph{add}, \emph{commit}, \emph{push} steps add a file called \texttt{members.txt} to your repository.
 	The file should contain the names of all members in the following way:
 	\begin{verbatim}
@@ -91,13 +82,6 @@ The exercises in this course will teach you how to implement important RL algori
 	member 2: name2
 	member 3: name3
 	\end{verbatim}
-	
-	Once you're satisfied with your team assignment and have pushed it to the dev branch, you're ready to submit. To do that, simply merge dev to master:
-	\begin{verbatim}
-	git checkout master
-	git merge dev
-	\end{verbatim}
-	
 	Afterwards you can push to submit.
 	
 	We make use of GitHub Classrooms autograde functionality. Essentially, for most exercise sheets we will require you to pass unit tests which are automatically evaluated whenever you push to GitHub.
